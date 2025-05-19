@@ -1,0 +1,155 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.h1-Box{
+    text-align: center;
+    margin-bottom: 6%;
+    color: white;
+    font-size: 45px;
+    margin-top: 7%;
+}
+
+.div-Box-Img{
+    width: 70%;
+    display: flex;
+}
+
+.div-Box-Img div img{
+    width: 75%;
+    border-radius: 18%;
+}
+
+.div-Box-Img div h3{
+    color: white;
+    margin-left: 18%;
+    margin-top: 3%;
+    opacity: 0.8;
+}
+
+.box-h2-text-admin{
+    color: grey;
+    margin-top: 5%;
+    text-align: center;
+    border: solid 2px grey;
+    width: 25%;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.div-Box-Img div img:hover{
+    box-shadow: 4px 4px 4px white;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.header-A{
+    color: white;
+    border: 1px solid white;
+    width: 25%;
+    font-size: 20px;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-A:hover{
+    background-color: white;
+    transition: 1.5s;
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.containerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin-top: 2%;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 250px;
+    overflow: hidden; 
+    
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1s ease;
+    padding: 1%;
+   
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(100%);
+    box-shadow: 3px 3px 3px white;
+}
+
+footer{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   border-top: solid white 1px;
+}
+
+footer div{
+    width: 50%;
+    text-align: center;
+    padding: 3%;
+}
+
+footer div a{
+   width: 100%;
+   text-decoration: none;
+   color: white;
+   padding: 5%;
+}
+
+main form{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+main form input{
+    padding: 0.3%;
+    box-shadow: 3px 3px 3px white;
+}
+
+main form button{
+    color: white;
+    margin-top: 2%;
+    background-color: black;
+    width: 20%;
+    box-shadow: 3px 3px 3px white;
+    margin-bottom: 2%;
+}
+
+main form a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
